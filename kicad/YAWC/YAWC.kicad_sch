@@ -5718,6 +5718,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ext switch\n"
+		(exclude_from_sim no)
+		(at 243.332 45.466 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8549718f-6b4b-4a10-a93c-a657aac7d2af")
+	)
 	(junction
 		(at 208.28 214.63)
 		(diameter 0)
@@ -6397,6 +6407,12 @@
 		(uuid "e5eb1d7b-e3fa-4bfd-b9e0-713726b70739")
 	)
 	(junction
+		(at 110.49 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8748236-51e1-4477-8fd5-8b64da72068b")
+	)
+	(junction
 		(at 153.67 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6798,7 +6814,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 198.12) (xy 107.95 198.12)
+			(xy 102.87 198.12) (xy 110.49 198.12)
 		)
 		(stroke
 			(width 0)
@@ -9207,7 +9223,7 @@
 		(uuid "22cfc107-2abd-41ae-a0c9-872a70d38713")
 	)
 	(label "ARGB_1"
-		(at 213.36 35.56 180)
+		(at 213.36 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9227,7 +9243,7 @@
 		(uuid "262b2846-b72b-4171-8c44-4b7db6753541")
 	)
 	(label "ARGB_3"
-		(at 213.36 83.82 180)
+		(at 213.36 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9277,7 +9293,7 @@
 		(uuid "3b6e7a14-e84b-4552-b309-c8e9f6682ff4")
 	)
 	(label "ARGB_2"
-		(at 213.36 60.96 180)
+		(at 213.36 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9667,7 +9683,7 @@
 		(uuid "c601bd16-a86b-4f74-b055-b602fa98a486")
 	)
 	(label "ARGB_4"
-		(at 213.36 107.95 180)
+		(at 213.36 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9914,7 +9930,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "12r"
 			(at 125.73 99.06 90)
 			(effects
 				(font
@@ -9922,7 +9938,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 104.648 90)
 			(effects
 				(font
@@ -9942,6 +9958,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 125.73 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C246021"
+			(at 125.73 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10058,7 +10083,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "12r"
 			(at 114.3 85.09 90)
 			(effects
 				(font
@@ -10066,7 +10091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 114.3 90.678 90)
 			(effects
 				(font
@@ -10086,6 +10111,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C246021"
+			(at 114.3 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10155,6 +10189,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 160.02 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138687"
 			(at 160.02 269.24 0)
 			(effects
 				(font
@@ -10291,6 +10334,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
 			(at 148.59 269.24 0)
 			(effects
 				(font
@@ -10504,6 +10556,15 @@
 			)
 		)
 		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 220.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C554502"
 			(at 220.98 147.32 0)
 			(effects
 				(font
@@ -10919,7 +10980,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-3_P5.08mm"
 			(at 58.42 135.89 0)
 			(effects
 				(font
@@ -10938,6 +10999,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 58.42 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C72334"
 			(at 58.42 135.89 0)
 			(effects
 				(font
@@ -11218,6 +11288,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C20551"
+			(at 143.51 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "7cac870b-842d-4be2-ba3c-0c4a24bff573")
 		)
@@ -11295,6 +11374,15 @@
 			)
 		)
 		(property "Description" "600W unidirectional Transil Transient Voltage Suppressor, 6.8Vrwm, DO-214AA"
+			(at 204.47 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C224017"
 			(at 204.47 260.35 0)
 			(effects
 				(font
@@ -11502,6 +11590,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C224017"
+			(at 204.47 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f831c95d-634f-4d63-9490-1f5fc8937261")
 		)
@@ -11563,6 +11660,15 @@
 			)
 		)
 		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 220.98 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C554502"
 			(at 220.98 35.56 0)
 			(effects
 				(font
@@ -11948,7 +12054,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-4_P5.08mm"
 			(at 58.42 52.07 0)
 			(effects
 				(font
@@ -11967,6 +12073,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 58.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2915641"
 			(at 58.42 52.07 0)
 			(effects
 				(font
@@ -12043,6 +12158,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 125.73 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
 			(at 125.73 226.06 0)
 			(effects
 				(font
@@ -12254,6 +12378,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138687"
+			(at 77.47 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1b65ee96-5de4-43e0-a8f1-579e5c4cb2e7")
 		)
@@ -12297,7 +12430,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 123.698 106.68 90)
 			(effects
 				(font
@@ -12316,6 +12449,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 121.92 106.68 0)
 			(effects
 				(font
@@ -12367,7 +12509,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 112.268 92.71 90)
 			(effects
 				(font
@@ -12386,6 +12528,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 110.49 92.71 0)
 			(effects
 				(font
@@ -12437,7 +12588,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 155.448 205.74 90)
 			(effects
 				(font
@@ -12456,6 +12607,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 153.67 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 153.67 205.74 0)
 			(effects
 				(font
@@ -12523,6 +12683,15 @@
 			)
 		)
 		(property "Description" "600W unidirectional Transil Transient Voltage Suppressor, 6.8Vrwm, DO-214AA"
+			(at 204.47 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C224017"
 			(at 204.47 232.41 0)
 			(effects
 				(font
@@ -12650,7 +12819,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-3_P5.08mm"
 			(at 58.42 115.57 0)
 			(effects
 				(font
@@ -12669,6 +12838,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 58.42 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C72334"
 			(at 58.42 115.57 0)
 			(effects
 				(font
@@ -13096,6 +13274,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52895"
+			(at 379.73 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "30cf0427-0093-41a9-a60e-d5f708f38b18")
 		)
@@ -13139,7 +13326,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-3_P5.08mm"
 			(at 58.42 154.94 0)
 			(effects
 				(font
@@ -13158,6 +13345,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 58.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C72334"
 			(at 58.42 154.94 0)
 			(effects
 				(font
@@ -13263,16 +13459,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 107.95 194.31 180)
+		(at 110.49 194.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "27a365da-8a93-4673-b54a-348797ecd857")
 		(property "Reference" "R30"
-			(at 110.49 193.0399 0)
+			(at 113.03 193.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13281,7 +13476,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 110.49 195.5799 0)
+			(at 113.03 195.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13289,8 +13484,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 109.728 194.31 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 112.268 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13299,7 +13494,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 194.31 0)
+			(at 110.49 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13308,7 +13503,16 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 107.95 194.31 0)
+			(at 110.49 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
+			(at 110.49 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13512,7 +13716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1"
 			(at 111.76 100.33 0)
 			(effects
 				(font
@@ -13566,6 +13770,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C42403238"
+			(at 116.84 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bedad16c-3146-4b07-bcf7-6992a5182588")
 		)
@@ -13612,7 +13825,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 155.448 139.7 90)
 			(effects
 				(font
@@ -13631,6 +13844,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 153.67 139.7 0)
 			(effects
 				(font
@@ -13682,7 +13904,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 110.998 26.67 90)
 			(effects
 				(font
@@ -13701,6 +13923,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 109.22 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 109.22 26.67 0)
 			(effects
 				(font
@@ -13779,6 +14010,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138687"
+			(at 43.18 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fd168712-dbb6-48ec-954c-582f6899a929")
 		)
@@ -13839,6 +14079,15 @@
 			)
 		)
 		(property "Description" "Photo Modules for PCM Remote Control Systems"
+			(at 340.36 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C141632"
 			(at 340.36 90.17 0)
 			(effects
 				(font
@@ -14185,6 +14434,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C20551"
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "2738c24e-9da1-436f-aa58-a3907e95653b")
 		)
@@ -14265,6 +14523,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 160.02 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138687"
 			(at 160.02 247.65 0)
 			(effects
 				(font
@@ -14383,7 +14650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1"
 			(at 110.49 34.29 0)
 			(effects
 				(font
@@ -14437,6 +14704,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C42403238"
+			(at 115.57 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7a9bf040-3461-4671-a650-5b6aacfa0719")
 		)
@@ -14482,7 +14758,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 164.338 40.64 90)
 			(effects
 				(font
@@ -14501,6 +14777,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 162.56 40.64 0)
 			(effects
 				(font
@@ -14579,6 +14864,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1591"
+			(at 148.59 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e67b6f0b-dce5-41ae-8ea6-761a4122cf54")
 		)
@@ -14623,7 +14917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1"
 			(at 100.33 53.34 0)
 			(effects
 				(font
@@ -14677,6 +14971,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C42403238"
+			(at 105.41 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ead1d247-252e-41e4-893b-c52ef0d4526c")
 		)
@@ -14722,7 +15025,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 164.338 172.72 90)
 			(effects
 				(font
@@ -14741,6 +15044,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 162.56 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 162.56 172.72 0)
 			(effects
 				(font
@@ -15087,6 +15399,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C92489"
+			(at 339.09 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "23d69fea-44ca-477a-975c-85347cb6b55c")
 		)
@@ -15214,7 +15535,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "12r"
 			(at 125.73 132.08 90)
 			(effects
 				(font
@@ -15222,7 +15543,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 137.668 90)
 			(effects
 				(font
@@ -15242,6 +15563,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 125.73 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C246021"
+			(at 125.73 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15293,7 +15623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1"
 			(at 111.76 133.35 0)
 			(effects
 				(font
@@ -15340,6 +15670,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 116.84 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42403238"
+			(at 116.84 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15410,6 +15749,15 @@
 		)
 		(property "Description" "Fuse"
 			(at 364.49 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C108518"
+			(at 364.49 217.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15537,7 +15885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 370.84 46.482 90)
 			(effects
 				(font
@@ -15557,6 +15905,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 370.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
+			(at 370.84 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15634,6 +15991,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C20551"
+			(at 143.51 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "9548b9c9-848c-4cea-836e-c76fff39aaa0")
 		)
@@ -15695,7 +16061,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 155.448 106.68 90)
 			(effects
 				(font
@@ -15714,6 +16080,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 153.67 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 153.67 106.68 0)
 			(effects
 				(font
@@ -16090,6 +16465,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138687"
+			(at 43.18 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "709a2c77-3b6f-4a73-b99a-2d7a68e24450")
 		)
@@ -16133,7 +16517,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 123.698 73.66 90)
 			(effects
 				(font
@@ -16152,6 +16536,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 121.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 121.92 73.66 0)
 			(effects
 				(font
@@ -16266,7 +16659,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-3_P5.08mm"
 			(at 58.42 173.99 0)
 			(effects
 				(font
@@ -16285,6 +16678,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 58.42 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C72334"
 			(at 58.42 173.99 0)
 			(effects
 				(font
@@ -16627,6 +17029,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C224017"
+			(at 204.47 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30d28c10-c0d7-4d3d-bc60-8f2dd1b2bde5")
 		)
@@ -16895,6 +17306,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138687"
+			(at 54.61 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "951ba150-3547-4c65-b0d0-fb374aac7d66")
 		)
@@ -16965,6 +17385,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1591"
+			(at 125.73 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "27281d72-3daa-479e-97f5-65809823161b")
 		)
@@ -17024,6 +17453,15 @@
 			)
 		)
 		(property "Description" "600W unidirectional Transil Transient Voltage Suppressor, 6.8Vrwm, DO-214AA"
+			(at 204.47 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C224017"
 			(at 204.47 269.24 0)
 			(effects
 				(font
@@ -17178,6 +17616,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138687"
+			(at 77.47 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b5726cc0-3788-4324-af04-daf1022f50b3")
 		)
@@ -17297,7 +17744,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 121.158 205.74 90)
 			(effects
 				(font
@@ -17316,6 +17763,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 119.38 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 119.38 205.74 0)
 			(effects
 				(font
@@ -17385,6 +17841,15 @@
 			)
 		)
 		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 220.98 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C554502"
 			(at 220.98 60.96 0)
 			(effects
 				(font
@@ -17721,6 +18186,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138687"
+			(at 66.04 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a722c53e-2065-471e-a96d-b72df6baf5af")
 		)
@@ -17856,6 +18330,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2933801"
+			(at 328.93 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b5e4c1b-58e0-4584-9d12-7ac3d22c9e2a")
 		)
@@ -17926,6 +18409,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138687"
+			(at 66.04 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5dfc899f-5a09-4ce0-b247-3875644bea77")
 		)
@@ -17988,6 +18480,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 363.22 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
 			(at 363.22 90.17 0)
 			(effects
 				(font
@@ -18096,7 +18597,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "12r"
 			(at 125.73 165.1 90)
 			(effects
 				(font
@@ -18104,7 +18605,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 170.688 90)
 			(effects
 				(font
@@ -18124,6 +18625,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 125.73 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C246021"
+			(at 125.73 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18385,7 +18895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1"
 			(at 100.33 153.67 0)
 			(effects
 				(font
@@ -18432,6 +18942,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 105.41 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42403238"
+			(at 105.41 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18486,7 +19005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1"
 			(at 99.06 20.32 0)
 			(effects
 				(font
@@ -18533,6 +19052,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 104.14 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42403238"
+			(at 104.14 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18604,6 +19132,15 @@
 			)
 		)
 		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 220.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C554502"
 			(at 220.98 107.95 0)
 			(effects
 				(font
@@ -18689,7 +19226,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 370.84 41.402 90)
 			(effects
 				(font
@@ -18709,6 +19246,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 370.84 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
+			(at 370.84 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18835,7 +19381,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 112.268 59.69 90)
 			(effects
 				(font
@@ -18854,6 +19400,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 110.49 59.69 0)
 			(effects
 				(font
@@ -18978,7 +19533,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-4_P5.08mm"
 			(at 58.42 69.85 0)
 			(effects
 				(font
@@ -18997,6 +19552,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 58.42 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2915641"
 			(at 58.42 69.85 0)
 			(effects
 				(font
@@ -19280,6 +19844,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138687"
+			(at 54.61 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e40b6d57-6c6d-4618-aa35-cbd0cbe218cb")
 		)
@@ -19446,7 +20019,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "12r"
 			(at 114.3 52.07 90)
 			(effects
 				(font
@@ -19454,7 +20027,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 114.3 57.658 90)
 			(effects
 				(font
@@ -19474,6 +20047,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 114.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C246021"
+			(at 114.3 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19580,7 +20162,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "12r"
 			(at 125.73 66.04 90)
 			(effects
 				(font
@@ -19588,7 +20170,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 71.628 90)
 			(effects
 				(font
@@ -19608,6 +20190,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 125.73 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C246021"
+			(at 125.73 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19659,7 +20250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1"
 			(at 111.76 67.31 0)
 			(effects
 				(font
@@ -19713,6 +20304,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C42403238"
+			(at 116.84 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "344e38b7-4594-4ce0-b378-831b220c63cf")
 		)
@@ -19759,7 +20359,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 155.448 73.66 90)
 			(effects
 				(font
@@ -19778,6 +20378,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 153.67 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 153.67 73.66 0)
 			(effects
 				(font
@@ -19830,7 +20439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1"
 			(at 100.33 187.96 0)
 			(effects
 				(font
@@ -19877,6 +20486,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 105.41 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42403238"
+			(at 105.41 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20102,6 +20720,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C20551"
+			(at 143.51 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "1a06d82d-9b73-4ef4-9713-b286e917a64d")
 		)
@@ -20319,6 +20946,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19727305"
+			(at 280.67 215.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "85967899-eb68-41dc-aa9f-11400427c774")
 		)
@@ -20363,7 +20999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1"
 			(at 100.33 86.36 0)
 			(effects
 				(font
@@ -20410,6 +21046,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 105.41 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42403238"
+			(at 105.41 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20529,7 +21174,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 164.338 73.66 90)
 			(effects
 				(font
@@ -20548,6 +21193,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 162.56 73.66 0)
 			(effects
 				(font
@@ -20623,6 +21277,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C224017"
+			(at 204.47 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "39ad0408-7999-4982-9c55-91d3ab0321c6")
 		)
@@ -20686,6 +21349,15 @@
 		)
 		(property "Description" "1.5A Dual High-Speed Power MOSFET Drivers, 4.5..18V supply, TTL/CMOS compatible inputs, non-inverting drivers, SOIC-8"
 			(at 143.51 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20551"
+			(at 143.51 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20810,7 +21482,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "12r"
 			(at 114.3 186.69 90)
 			(effects
 				(font
@@ -20818,7 +21490,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 114.3 192.278 90)
 			(effects
 				(font
@@ -20838,6 +21510,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 114.3 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C246021"
+			(at 114.3 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20908,6 +21589,15 @@
 		)
 		(property "Description" "1.5A Dual High-Speed Power MOSFET Drivers, 4.5..18V supply, TTL/CMOS compatible inputs, non-inverting drivers, SOIC-8"
 			(at 143.51 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20551"
+			(at 143.51 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21108,7 +21798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-3_P5.08mm"
 			(at 378.46 219.71 0)
 			(effects
 				(font
@@ -21127,6 +21817,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 378.46 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C72334"
 			(at 378.46 219.71 0)
 			(effects
 				(font
@@ -21337,7 +22036,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 155.448 40.64 90)
 			(effects
 				(font
@@ -21356,6 +22055,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 153.67 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 153.67 40.64 0)
 			(effects
 				(font
@@ -21408,7 +22116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1"
 			(at 111.76 199.39 0)
 			(effects
 				(font
@@ -21455,6 +22163,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 116.84 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42403238"
+			(at 116.84 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21509,7 +22226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1"
 			(at 111.76 166.37 0)
 			(effects
 				(font
@@ -21556,6 +22273,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 116.84 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42403238"
+			(at 116.84 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21939,7 +22665,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 164.338 106.68 90)
 			(effects
 				(font
@@ -21958,6 +22684,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 162.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 162.56 106.68 0)
 			(effects
 				(font
@@ -22009,7 +22744,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 112.268 160.02 90)
 			(effects
 				(font
@@ -22028,6 +22763,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 110.49 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 110.49 160.02 0)
 			(effects
 				(font
@@ -22371,6 +23115,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138687"
+			(at 314.96 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f38d3d7e-e874-4d57-b925-81fc29f5c46c")
 		)
@@ -22628,7 +23381,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 164.338 139.7 90)
 			(effects
 				(font
@@ -22647,6 +23400,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 162.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 162.56 139.7 0)
 			(effects
 				(font
@@ -22831,7 +23593,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 155.448 172.72 90)
 			(effects
 				(font
@@ -22850,6 +23612,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 153.67 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 153.67 172.72 0)
 			(effects
 				(font
@@ -22920,6 +23691,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 125.73 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
 			(at 125.73 269.24 0)
 			(effects
 				(font
@@ -23027,7 +23807,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "12r"
 			(at 114.3 152.4 90)
 			(effects
 				(font
@@ -23035,7 +23815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 114.3 157.988 90)
 			(effects
 				(font
@@ -23055,6 +23835,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 114.3 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C246021"
+			(at 114.3 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23095,7 +23884,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "12r"
 			(at 124.46 33.02 90)
 			(effects
 				(font
@@ -23103,7 +23892,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 124.46 38.608 90)
 			(effects
 				(font
@@ -23123,6 +23912,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 124.46 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C246021"
+			(at 124.46 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23192,6 +23990,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 137.16 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138687"
 			(at 137.16 269.24 0)
 			(effects
 				(font
@@ -23310,7 +24117,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 112.268 125.73 90)
 			(effects
 				(font
@@ -23329,6 +24136,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 110.49 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 110.49 125.73 0)
 			(effects
 				(font
@@ -23379,7 +24195,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-3_P5.08mm"
 			(at 304.8 219.71 0)
 			(effects
 				(font
@@ -23398,6 +24214,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 304.8 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C72334"
 			(at 304.8 219.71 0)
 			(effects
 				(font
@@ -23479,6 +24304,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138687"
+			(at 205.74 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3b3fee05-4049-4bf0-b526-8e3c5dff76dd")
 		)
@@ -23549,6 +24383,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1591"
+			(at 148.59 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4acaeee2-0ddb-4470-aa85-222b2dcafafd")
 		)
@@ -23592,7 +24435,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 122.428 40.64 90)
 			(effects
 				(font
@@ -23611,6 +24454,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 120.65 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 120.65 40.64 0)
 			(effects
 				(font
@@ -23725,7 +24577,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-4_P5.08mm"
 			(at 58.42 88.9 0)
 			(effects
 				(font
@@ -23744,6 +24596,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 58.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2915641"
 			(at 58.42 88.9 0)
 			(effects
 				(font
@@ -23801,7 +24662,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 123.698 172.72 90)
 			(effects
 				(font
@@ -23820,6 +24681,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 121.92 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 121.92 172.72 0)
 			(effects
 				(font
@@ -23872,7 +24742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-HSOF-8-1"
 			(at 100.33 119.38 0)
 			(effects
 				(font
@@ -23919,6 +24789,15 @@
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
 			(at 105.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42403238"
+			(at 105.41 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24198,6 +25077,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1591"
+			(at 374.65 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "67166840-695b-4e38-939e-725d7b32c030")
 		)
@@ -24240,7 +25128,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 373.888 193.04 90)
 			(effects
 				(font
@@ -24259,6 +25147,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 372.11 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 372.11 193.04 0)
 			(effects
 				(font
@@ -24460,7 +25357,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-4_P5.08mm"
 			(at 290.83 218.44 0)
 			(effects
 				(font
@@ -24479,6 +25376,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 290.83 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2915641"
 			(at 290.83 218.44 0)
 			(effects
 				(font
@@ -24533,7 +25439,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-4_P5.08mm"
 			(at 58.42 34.29 0)
 			(effects
 				(font
@@ -24552,6 +25458,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 58.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2915641"
 			(at 58.42 34.29 0)
 			(effects
 				(font
@@ -24845,6 +25760,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138687"
+			(at 295.91 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b343004c-3722-44fc-bd69-1d13da8d8e75")
 		)
@@ -25010,7 +25934,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "12r"
 			(at 113.03 19.05 90)
 			(effects
 				(font
@@ -25018,7 +25942,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 113.03 24.638 90)
 			(effects
 				(font
@@ -25038,6 +25962,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 113.03 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C246021"
+			(at 113.03 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25107,6 +26040,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 137.16 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138687"
 			(at 137.16 226.06 0)
 			(effects
 				(font
@@ -25185,6 +26127,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C138687"
+			(at 160.02 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "18d72904-061c-4754-806d-3a85651fa423")
 		)
@@ -25228,7 +26179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Varistor:RV_Disc_D12mm_W5.4mm_P7.5mm"
 			(at 353.822 233.68 90)
 			(effects
 				(font
@@ -25559,7 +26510,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 164.338 205.74 90)
 			(effects
 				(font
@@ -25578,6 +26529,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 162.56 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 162.56 205.74 0)
 			(effects
 				(font
@@ -25653,6 +26613,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C224017"
+			(at 204.47 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42d5cc83-2a59-4940-b11e-57f578ea4924")
 		)
@@ -25714,6 +26683,15 @@
 			)
 		)
 		(property "Description" "Quadruple Bus Buffer Gates With 3-State Outputs"
+			(at 220.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C554502"
 			(at 220.98 83.82 0)
 			(effects
 				(font
@@ -25883,6 +26861,15 @@
 			)
 		)
 		(property "Description" "600W unidirectional Transil Transient Voltage Suppressor, 6.8Vrwm, DO-214AA"
+			(at 204.47 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C224017"
 			(at 204.47 251.46 0)
 			(effects
 				(font
@@ -26064,7 +27051,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 243.84 55.88 0)
 			(effects
 				(font
@@ -26222,6 +27209,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 137.16 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C138687"
 			(at 137.16 247.65 0)
 			(effects
 				(font
@@ -26405,7 +27401,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "12r"
 			(at 114.3 118.11 90)
 			(effects
 				(font
@@ -26413,7 +27409,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 114.3 123.698 90)
 			(effects
 				(font
@@ -26433,6 +27429,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 114.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C246021"
+			(at 114.3 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26540,7 +27545,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "12r"
 			(at 125.73 198.12 90)
 			(effects
 				(font
@@ -26548,7 +27553,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 125.73 203.708 90)
 			(effects
 				(font
@@ -26568,6 +27573,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 125.73 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C246021"
+			(at 125.73 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26695,7 +27709,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-4_P5.08mm"
 			(at 334.01 201.93 0)
 			(effects
 				(font
@@ -26715,6 +27729,15 @@
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 334.01 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2915641"
+			(at 334.01 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
